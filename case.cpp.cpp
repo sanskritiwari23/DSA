@@ -10,7 +10,7 @@ int main(){
 	if(c >= 'A' && c<='Z'){
 		cout<<"C is Uppercase"<<endl;
 	}
-	if(0<=c<=9){
+	if(c>='0' && c<='9'){
 	cout<<"c is Numeric"<<endl;
 }
 return 0;
